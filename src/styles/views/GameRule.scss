@@ -1,0 +1,11 @@
+@import '../common/Common.scss';
+
+.Game_Rule {
+  h1 {
+    @extend %fontHighLight;
+    @extend %fontH1;
+  }
+  p {
+    @extend %fontP;
+  }
+}

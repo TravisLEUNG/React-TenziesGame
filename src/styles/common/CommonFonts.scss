@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=M+PLUS+Rounded+1c:wght@400;700&display=swap");
+
+// Font
+%fontMain {
+  font-family: "Crimson Text", serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+%fontHighLight {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+// Bold
+%fontBold {
+  font-weight: 700;
+}
+
+// Header
+%fontH1 {
+  @extend %fontBold;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 24px 0;
+}
+%fontH2 {
+  @extend %fontBold;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 18px 0;
+}
+%fontH3 {
+  @extend %fontBold;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
+// Paragraph
+%fontP {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
