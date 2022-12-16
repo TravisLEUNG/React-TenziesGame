@@ -1,9 +1,8 @@
 import "../styles/views/GameRule.scss";
-import { OptionalProps, defaultOptionalProps } from '../common/CommonProps';
+import { OptionalProps, defaultOptionalProps } from "../common/CommonProps";
 
 // Required props
-interface RequiredProps {
-}
+interface RequiredProps { }
 
 function GameRule({ className }: RequiredProps & OptionalProps) {
     return (

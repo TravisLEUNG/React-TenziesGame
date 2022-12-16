@@ -5,5 +5,5 @@ export interface OptionalProps {
 
 // Default props
 export const defaultOptionalProps: OptionalProps = {
-    className: ''
-}
+    className: "",
+};

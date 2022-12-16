@@ -1,4 +1,5 @@
 import "./styles/App.scss";
+
 import GameRule from "./views/GameRule";
 import GameView from "./views/GameView";
 

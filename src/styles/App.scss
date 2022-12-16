@@ -1,4 +1,4 @@
-@import './common/Common.scss';
+@import "./common/Common.scss";
 
 .App {
   @extend %fontMain;
@@ -11,7 +11,7 @@
   margin: 60px 30px;
 
   & > div {
-    flex: 1 1 350px
+    flex: 1 1 350px;
   }
 }
 

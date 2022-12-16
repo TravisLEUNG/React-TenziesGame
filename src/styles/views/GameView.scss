@@ -1,3 +1,19 @@
+@import "../common/Common.scss";
+
 .Game_View {
-    
+  @extend %flexCenter;
+  & > div {
+    & > div {
+      margin: 40px auto 40px auto;
+    }
+  }
+  .Dice_List {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .Button {
+    @extend %buttonMain;
+    margin: 0;
+  }
 }

@@ -1,3 +1,16 @@
-@import 'CommonColors.scss';
-@import 'CommonFonts.scss';
-@import 'CommonPadding.scss';
+@import "CommonColors.scss";
+@import "CommonFonts.scss";
+@import "CommonPadding.scss";
+
+// Button
+%buttonMain {
+  @extend %fontH3;
+  background-color: $blue;
+  color: $white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 30px;
+  &:active {
+    box-shadow: inset 5px 5px 10px -3px rgba($dark, 0.7);
+  }
+}
