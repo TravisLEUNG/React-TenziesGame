@@ -1,16 +1,14 @@
 @import "../common/Common.scss";
 
 .Game_View {
-  @extend %flexCenter;
+  @extend %inheritCenter;
   & > div {
     & > div {
-      margin: 40px auto 40px auto;
+      margin: 40px 0 0 0;
     }
   }
   .Dice_List {
-    display: grid;
-    gap: 24px;
-    grid-template-columns: repeat(5, 1fr);
+    @include gridAutoFitResponsive(20px 55px, 36px, 36px);
   }
   .Button {
     @extend %buttonMain;

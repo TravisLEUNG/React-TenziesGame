@@ -4,6 +4,7 @@
 
 // Button
 %buttonMain {
+  @extend %fontHighLight;
   @extend %fontH3;
   background-color: $blue;
   color: $white;

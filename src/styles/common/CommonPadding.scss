@@ -11,3 +11,17 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+// Inherit Padding
+%inheritCenter {
+  display: inherit;
+  align-content: center;
+}
+
+// Grid Padding
+@mixin gridAutoFitResponsive($gap, $min, $max) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($min, $max));
+    gap: $gap;
+    justify-content: center;
+}

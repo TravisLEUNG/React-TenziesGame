@@ -6,6 +6,9 @@
     @extend %fontH1;
   }
   p {
+    @extend %fontHighLight;
     @extend %fontP;
+    @extend %fontBold;
+    color: $light-dark;
   }
 }
