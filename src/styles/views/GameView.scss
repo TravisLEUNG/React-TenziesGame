@@ -2,13 +2,22 @@
 
 .Game_View {
   @extend %inheritCenter;
-  & > div {
-    & > div {
-      margin: 40px 0 0 0;
-    }
-  }
+
   .Dice_List {
     @include gridAutoFitResponsive(20px 55px, 36px, 36px);
+    margin: 40px 0 0 0;
+  }
+  .Roll_Count {
+    @extend %fontHighLight;
+    @extend %flexCenter;
+    margin: 40px 0 10px 0;
+    & > span {
+      @extend %flexCenter;
+      margin-right: 8px;
+    }
+    .Clear_Record {
+      margin: 2px 8px;
+    }
   }
   .Button {
     @extend %buttonMain;

@@ -1,0 +1,19 @@
+@import "../common/Common.scss";
+
+.Game_Setting {
+  display: flex;
+  justify-content: space-between;
+  & > div {
+    @extend %fontHighLight;
+    width: 180px;
+    & > div {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.MuiSlider-root {
+  color: $blue !important;
+}
